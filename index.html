@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/22208d8df6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stabile_image">
+
+    </div>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img id="logo_image" src="/images/logo-removebg-preview.png" alt="">
+                <ul id="ul_side_menu">
+                    <i class="fa-solid fa-xmark" onclick="closeSideMenu()" id="closeMenuIcon"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portofolio">Pasiuni</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" id="menuIcon" onclick="openSideMenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <p>Musician for Christ</p>
+                <h1>Salut,
+                    Numele meu este <br><span>Paul</span> Magda</h1>
+            </div>
+            <a href="#header"><i class="fa-solid fa-house" id="back_to_header_btn"></i></a>
+        </div>
+     
+    </div>
+
+    <div id="about">
+        
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="about-col-1">
+                    <img src="images/7.JPG" alt="">
+                </div>
+                
+                <div class="about-col-2">
+                    
+                    <h1 class="sub-title">Despre mine</h1>
+                    
+                    <p>Sunt un student entuziast în domeniul ETCTI la vârsta frumoasă de 22 de ani. 
+                        Dar ce mă face cu adevărat să vibrez sunt munții! 
+                        Îți invit curiozitatea să exploreze mai multe despre mine și aventurile mele montane pe acest SITE minunat. 
+                        Poți descoperi mai multe detalii, pasiuni și poate chiar să te inspiri pentru propriile tale călătorii. 
+                        Haide să facem împreună această călătorie virtuală în universul meu!</p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="openTab('skills')">aptitudini</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experienta</p>
+                            <p class="tab-links" onclick="openTab('education')">Educație</p>
+                        </div>
+    
+                        <div class="tab-contents active-tabs" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Design web/app intefrate</li>
+                                <li><span>Limbaje de programare</span><br>html, c++, java</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Flex internship</span><br>2023-Flex internship in testare</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Universitatea Politehnica Timisoara</span><br>Electrotehnica si telecomunicatii</li>
+                            </ul>
+                        </div>
+                       
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            
+            <div class="services-list">
+                
+                <div class="">
+                    
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I learned web Development in collage, this is done using html, css, js, and back end php, sql, but I only know front end development</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div class="">
+                    <i class="fas fa-computer"></i>
+                    <h2>Programming</h2>
+                    <p>Programming in html, css, js, doing front end Development
+                        and working with java, python, c, and c++, all learned in collage
+                    </p>
+                    <a href="#">Learn more</a>
+                    
+                </div>
+
+                
+            </div>
+        </div>
+    
+    </div>
+
+
+
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">Pasiuni</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/100.jpg" alt="">
+                    <div class="layer">
+                        <h3>Mersul in tabere</h3>
+                        <p>Una din pasiunile mele a fost aceea de a merge in tabere.
+                            Taberele au fost mereu pentru mine, o pricina de bucurie
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/22.jpg" alt="">
+                    <div class="layer">
+                        <h3>Drumetiile</h3>
+                        <p>I dont think I need to add something here, but lets see</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/5.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>I dont think I need to add something here, but lets see</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Ia <span>legătura</span> cu mine</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>PaulMagda@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0738476561</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="ciberbullying.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Numele tău" required>
+                        <input type="email" name="email" placeholder="Mail-ul tău" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Mesajul tău"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Powered <i class="fa-solid fa-power-off"></i> by FirePage</p>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
